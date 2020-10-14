@@ -1,12 +1,12 @@
 let warmHugs = "Hi, I'm Olaf and I like warm hugs.";
 console.log(warmHugs.toUpperCase());
-console.log(warmHugs.replace("like", "love"));
+warmHugs = warmHugs.replace("like", "love");
 
 let beenImpaled = "Oh, look at that. I've been impaled.";
 console.log(beenImpaled.slice(18, 36));
 
 let dotDotDot = "...";
-let skullBones = `I don't have a skull${dotDotDot}or bones.`
+let skullBones = `I don't have a skull${dotDotDot}or bones.`;
 console.log(skullBones);
 
 
@@ -26,7 +26,7 @@ otherRandomNumber = Math.ceil(otherRandomNumber);
 console.log(otherRandomNumber);
 
 // Bonus
-console.log("Let It Go! ".toUpperCase().repeat(3));
+console.log("Let It Go! ".toUpperCase().repeat(2).trim());
 
 let turtleButts = "Bright side? Turtles can breathe through their butts.";
 console.log(turtleButts.replace(/ /g, '_'));
@@ -35,6 +35,7 @@ console.log(Math.sqrt(2));
 
 
 newRandomNumber = Math.floor(Math.random() * 23 + 7);
+console.log(newRandomNumber);
 
 
 
